@@ -1,0 +1,231 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #DFF0D8; /* Açık yeşil */
+  color: #8B4513; /* Koyu kahverengi */
+}
+
+/* Navbar styles */
+.MuiList-root {
+  background-color: #2E8B57; /* Koyu yeşil */
+}
+.navbar-link{
+  color: white !important;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #DFF0D8 0%, #A9DFBF 100%); /* Yeşil tonlar */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section-div {
+  width: 45%;
+  margin-left: 50px;
+}
+
+.hero-section-div h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #2E8B57; /* Koyu yeşil */
+  margin-bottom: 20px;
+}
+
+.hero-section-div p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #8B4513; /* Koyu kahverengi */
+  margin-top: 16px;
+}
+
+.alt-info {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #DEB887; /* Açık kahverengi */
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.alt-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.alt-info:hover {
+  background-color: #FFA07A; /* Turuncu */
+}
+
+.hero-section-img {
+  width: 45%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin-right: 50px;
+}
+
+/* Pet connection styles */
+.pet-connection {
+  width: 85%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.pet-connection h1 {
+  font-size: 48px;
+  background: linear-gradient(90deg, #2E8B57, #DEB887); /* Koyu yeşil ve açık kahverengi */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 40px;
+}
+
+.pet-connection-innerDiv {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #F5F5DC; /* Açık bej */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.pet-connection-innerDiv p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #8B4513; /* Koyu kahverengi */
+}
+
+.pet-connection-innerDiv p span {
+  color: #FFA07A; /* Turuncu */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Grid styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.grid-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.grid-card div {
+  padding: 20px;
+}
+
+.grid-card h3 {
+  font-size: 24px;
+  color: #2E8B57; /* Koyu yeşil */
+  margin-bottom: 10px;
+}
+
+.grid-card p {
+  font-size: 16px;
+  color: #8B4513; /* Koyu kahverengi */
+  margin-bottom: 20px;
+}
+
+.grid-card a {
+  color: #DEB887; /* Açık kahverengi */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.grid-card a:hover {
+  color: #FFA07A; /* Turuncu */
+}
+
+/* Footer styles */
+footer {
+  background-color: #2E8B57; /* Koyu yeşil */
+  padding: 40px 0;
+  color: white;
+}
+
+.top-footer {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-footer p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.bottom-footer {
+  width: 75%;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-side h3,
+.right-side h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.left-side a,
+.right-side a {
+  font-size: 16px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.left-side a:hover,
+.right-side a:hover {
+  color: #FFA07A; /* Turuncu */
+}
+
+/* Icon styles */
+.left-side a i,
+.right-side a i {
+  margin-right: 8px;
+}
