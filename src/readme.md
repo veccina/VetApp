@@ -4,7 +4,7 @@ Bu proje, veteriner klinikleri için tasarlanmış kapsamlı bir yönetim sistem
 
 ## Canlı Demo
 
-Projenin canlı demosuna [buradan](#) ulaşabilirsiniz.
+Projenin canlı demosuna [buradan](https://6664f1f6b7dd974d1416fc72--sprightly-melomakarona-5bc36f.netlify.app) ulaşabilirsiniz.
 
 ## Özellikler
 
